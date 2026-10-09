@@ -1,3 +1,6 @@
 # KawanaeDiscordBot
-by default from baileys (cross/same session)
+## IMPORTANT
+by default from "main.js" baileys (cross/same session)
+```js
 import "../Kawanae-DiscordBot/bot.js"
+```
