@@ -8,7 +8,7 @@ import "../Kawanae-DiscordBot/bot.js"
 ```
 some file require file/modules from my repo BeamingBot (baileys)
 
-## Version Alpha 0.1.1.50
+## Version Alpha 0.1.1.0
 
 - Add new database system
 - Change some file with better code
