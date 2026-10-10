@@ -4,6 +4,7 @@ import { EmbedBuilder } from "discord.js";
 
 global.PREFIX = ["."]
 global.token = ""
+global.geminitoken = ""
 global.owner_id = ["778750199166140418"]
 global.guild_id = ["1133791977096351816"]
 global.RandomColor = ["#FF0000", "#FF8700", "#FFD300", "#A1FF0A", "#0AFF99", "#0AEFFF", "#147DF5", "#580AFF", "#BE0AFF"]
