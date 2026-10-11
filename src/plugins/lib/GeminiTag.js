@@ -9,7 +9,7 @@ export const LibEvent = {
             console.log(text)
             if (!text) return
             await message.channel.sendTyping()
-            const genAI = new GoogleGenerativeAI(global.geminitoken);
+            const genAI = new GoogleGenerativeAI(global.geminitoken || process.env.GEMINI_API_KEY);
             const model = genAI.getGenerativeModel({
                 model: "gemini-flash-latest",
                 //systemInstruction: `namamu adalah " Kanako Asisten " kamu adalah bot whatsapp yang di buat oleh Regle, kamu sangat dingin saat berbicara tapi kamu memiliki sifat yang baik dan juga sopan`,
